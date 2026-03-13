@@ -1,5 +1,6 @@
-"""Utility functions."""
+import os
 
+"""Utility functions."""
 
 def is_even(n: int) -> bool:
     """Check if number is even."""
@@ -9,3 +10,4 @@ def is_even(n: int) -> bool:
 def is_positive(n: float) -> bool:
     """Check if number is positive."""
     return n > 0
+
